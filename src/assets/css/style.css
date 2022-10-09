@@ -24,7 +24,7 @@
 a {
   text-decoration: none !important;
   outline: none;
-  color: #B9F9E5;
+  color: #0475F2;
 }
 
 body {
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .menu-social-icon li .menu-social-link:hover {
-  color: #B9F9E5;
+  color: #0475F2;
 }
 
 .navbar-custom {
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
-  color: #B9F9E5 !important;
+  color: #0475F2 !important;
 }
 
 .navbar-custom .navbar-nav.menu-social-icon .nav-item .nav-link {
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav .open > a:focus,
 .nav .open > a:hover {
   background-color: transparent;
-  border-color: #B9F9E5;
+  border-color: #0475F2;
 }
 
 .menu-toggle {
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-sticky.navbar-custom .navbar-nav li.active a, .nav-sticky.navbar-custom .navbar-nav li a:hover, .nav-sticky.navbar-custom .navbar-nav li a:active {
-  color: #B9F9E5 !important;
+  color: #0475F2 !important;
 }
 
 .nav-sticky .logo .logo-dark {
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
   }
   .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li a:hover, .navbar-custom .navbar-nav li a:active {
-    color: #B9F9E5 !important;
+    color: #0475F2 !important;
   }
   .navbar-custom > .container {
     width: 90%;
@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.5s;
   }
   .navbar .menu-social-icon li .menu-social-link:hover {
-    color: #B9F9E5 !important;
+    color: #0475F2 !important;
   }
   .nav-sticky.navbar-custom .navbar-nav {
     margin-top: 10px;
@@ -299,8 +299,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-primary {
-  background: -webkit-gradient(linear, left top, right top, from(#B9F9E5), to(#657be5));
-  background: linear-gradient(to right, #B9F9E5 0%, #657be5 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#0475F2), to(#657be5));
+  background: linear-gradient(to right, #0475F2 0%, #657be5 100%);
   border: none;
   color: #ffffff;
   -webkit-box-shadow: 0 4px 20px rgba(57, 86, 222, 0.15);
@@ -314,13 +314,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn.btn-outline-primary {
-  border: 1px solid #B9F9E5 !important;
-  color: #B9F9E5 !important;
+  border: 1px solid #0475F2 !important;
+  color: #0475F2 !important;
 }
 
 .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary.focus, .btn.btn-outline-primary:active, .btn.btn-outline-primary.active {
-  background-color: #B9F9E5 !important;
-  border: 1px solid #B9F9E5 !important;
+  background-color: #0475F2 !important;
+  border: 1px solid #0475F2 !important;
   -webkit-box-shadow: 0 3px 10px rgba(57, 86, 222, 0.5);
           box-shadow: 0 3px 10px rgba(57, 86, 222, 0.5);
   color: #ffffff !important;
@@ -640,15 +640,15 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(57, 86, 222, 0.1);
   -webkit-box-shadow: 0 1px 2px rgba(57, 86, 222, 0.5);
           box-shadow: 0 1px 2px rgba(57, 86, 222, 0.5);
-  color: #B9F9E5;
+  color: #0475F2;
 }
 
 .text-primary {
-  color: #B9F9E5 !important;
+  color: #0475F2 !important;
 }
 
 .bg-primary {
-  background-color: #B9F9E5 !important;
+  background-color: #0475F2 !important;
 }
 
 .icon-fill-primary {
@@ -1010,8 +1010,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: -webkit-gradient(linear, right bottom, left top, from(#1097bd), to(#B9F9E5));
-  background: linear-gradient(to top left, #1097bd 0%, #B9F9E5 100%);
+  background: -webkit-gradient(linear, right bottom, left top, from(#1097bd), to(#0475F2));
+  background: linear-gradient(to top left, #1097bd 0%, #0475F2 100%);
   z-index: 9999999;
 }
 
@@ -1217,8 +1217,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service-box:hover {
-  background: #B9F9E5;
-  border-color: #B9F9E5;
+  background: #0475F2;
+  border-color: #0475F2;
 }
 
 .service-box:hover .service-box-icon {
@@ -1320,9 +1320,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .testi-content .owl-dots .owl-dot.active span, .testi-content .owl-dots .owl-dot:hover span {
-  background: #B9F9E5;
-  -webkit-box-shadow: 0 0 0 1px #B9F9E5;
-          box-shadow: 0 0 0 1px #B9F9E5;
+  background: #0475F2;
+  -webkit-box-shadow: 0 0 0 1px #0475F2;
+          box-shadow: 0 0 0 1px #0475F2;
 }
 
 .testi-content .owl-item.center .testi-box .testi-user-img, .testi-content .owl-item:hover .testi-box .testi-user-img {
@@ -1344,7 +1344,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: none;
           box-shadow: none;
   background-color: #fbfbfd;
-  border-color: #B9F9E5;
+  border-color: #0475F2;
 }
 
 .form-control {
