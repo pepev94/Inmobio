@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Input, Row } from "reactstrap";
-import Snackbar from '@mui/material/Snackbar';
-import MuiAlert from '@mui/material/Alert';
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
 // Import Background Image
 import hero5 from "../../assets/images/hero-5-img.png";
 import sendToAirtable from "../../utils/airtable";
@@ -13,14 +13,21 @@ const Section = () => {
 
   const submitForm = (data) => {
     sendToAirtable(data);
-    setOpen(true)
-
+    setOpen(true);
   };
 
   return (
     <React.Fragment>
-         <Snackbar open={open} autoHideDuration={6000} onClose={() => setOpen(false)}>
-        <MuiAlert onClose={() => setOpen(false)} severity="success" sx={{ width: '100%' }}>
+      <Snackbar
+        open={open}
+        autoHideDuration={6000}
+        onClose={() => setOpen(false)}
+      >
+        <MuiAlert
+          onClose={() => setOpen(false)}
+          severity="success"
+          sx={{ width: "100%" }}
+        >
           Información enviada con éxito
         </MuiAlert>
       </Snackbar>
@@ -43,17 +50,24 @@ const Section = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       type="email"
+                      style={{marginBottom:'10px', width:'100%'}}
+
                       className="form-control mr-md-3"
                       id="inputEmail2"
                       placeholder="Ingresa tu correo..."
                     />
 
-                    <button       onClick={() =>
-                          submitForm({
-                            email,
-                          
-                          })
-                        } to="#" type="submit" className="btn btn-primary">
+                    <button
+                      onClick={() =>
+                        submitForm({
+                          email,
+                        })
+                      }
+                      style={{width:'100%'}}
+                      to="#"
+                      type="submit"
+                      className="btn btn-primary"
+                    >
                       Unirme a la waiting list
                     </button>
                   </div>
