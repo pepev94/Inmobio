@@ -37,7 +37,7 @@ const Section = () => {
             <Col lg={6}>
               <div className="">
                 <h1 className="hero-5-title line-height-1_4 mb-4">
-                  El primer tiempo compartido que te da
+                  El primer tiempo compartido que te da{" "}
                   <span className="text-primary">RENDIMIENTOS</span>
                 </h1>
                 <p className="text-muted mb-4 pb-3">
