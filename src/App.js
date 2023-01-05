@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withRouter, Switch, BrowserRouter as Router } from "react-router-dom";
-import Layout5 from "../src/pages/Layout5/Layout5";
+import Home from "../src/pages/Layout5/Layout5";
 
 //import style
 import "./assets/css/pe-icon-7.css";
@@ -17,7 +17,7 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Switch>
-            <Layout5 />
+            <Home />
           </Switch>
         </Router>
       </React.Fragment>
