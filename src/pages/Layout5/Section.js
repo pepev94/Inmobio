@@ -37,8 +37,8 @@ const Section = () => {
             <Col lg={6}>
               <div className="">
                 <h1 className="hero-5-title line-height-1_4 mb-4">
-                  Invierte en tu primer Airbnb{" "}
-                  <span className="text-primary">sin enganche</span>
+                  El primer tiempo compartido que te da
+                  <span className="text-primary">RENDIMIENTOS</span>
                 </h1>
                 <p className="text-muted mb-4 pb-3">
                   Con inmob.io empieza a recibir ingresos pasivos desde el
@@ -50,8 +50,7 @@ const Section = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       type="email"
-                      style={{marginBottom:'10px', width:'100%'}}
-
+                      style={{ marginBottom: "10px", width: "100%" }}
                       className="form-control mr-md-3"
                       id="inputEmail2"
                       placeholder="Ingresa tu correo..."
@@ -63,7 +62,7 @@ const Section = () => {
                           email,
                         })
                       }
-                      style={{width:'100%'}}
+                      style={{ width: "100%" }}
                       to="#"
                       type="submit"
                       className="btn btn-primary"

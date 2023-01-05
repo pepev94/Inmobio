@@ -15,7 +15,7 @@ class Layout5 extends Component {
       navItems: [
         { id: 1, idnm: "home", navheading: "Inicio" },
         // { id: 2, idnm: "about", navheading: "Sobre nosotros" },
-        { id: 3, idnm: "services", navheading: "Inversión" },
+        { id: 3, idnm: "services", navheading: "Compra" },
         // { id: 4, idnm: "features", navheading: "Features" },
         // { id: 5, idnm: "project", navheading: "Proyecto" },
         // { id: 6, idnm: "clients", navheading: "Clientes" },
@@ -76,8 +76,8 @@ class Layout5 extends Component {
           {/* Importing About */}
           {/* <About /> */}
 
-           {/* Importing Service */}
-           <Services />
+          {/* Importing Service */}
+          <Services />
 
           {/* Importing Feature */}
           {/* <Feature /> */}
