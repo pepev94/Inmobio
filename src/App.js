@@ -1,6 +1,12 @@
 import React, { Component } from "react";
-import { withRouter, Switch, BrowserRouter as Router } from "react-router-dom";
+import {
+  withRouter,
+  Switch,
+  BrowserRouter as Router,
+  Route,
+} from "react-router-dom";
 import Home from "../src/pages/Layout5/Layout5";
+import PrivacyPolicy from "../src/pages/PrivacyPolicy";
 
 //import style
 import "./assets/css/pe-icon-7.css";
@@ -17,7 +23,12 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Switch>
-            <Home />
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/politicas-de-privacidad">
+              <PrivacyPolicy />
+            </Route>
           </Switch>
         </Router>
       </React.Fragment>

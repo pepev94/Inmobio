@@ -16,17 +16,16 @@ class Footer extends Component {
     super(props);
     this.state = {
       links: [
-        // {
-        //   id: 1,
-        //   title: "Customer",
-        //   child: [
-        //     { title: "Works", link: "/" },
-        //     { title: "Strategy", link: "/" },
-        //     { title: "Releases", link: "/" },
-        //     { title: "Press", link: "/" },
-        //     { title: "Mission", link: "/" },
-        //   ],
-        // },
+        {
+          id: 1,
+          title: "Extra",
+          child: [
+            {
+              title: "Políticas de privacidad",
+              link: "/politicas-de-privacidad",
+            },
+          ],
+        },
         // {
         //   id: 2,
         //   title: "Product",
@@ -67,7 +66,9 @@ class Footer extends Component {
                   <Link to="#">
                     <img src={logolight} alt="" className="" height="35" />
                   </Link>
-                  <p className="text-white-50 my-4">Tu primer Airbnb sin preocuparte</p>
+                  <p className="text-white-50 my-4">
+                    Tu primer Airbnb sin preocuparte
+                  </p>
                   {/* <Link to="#" className="text-white-70"><FeatherIcon className="icon mr-1" icon="instagram" />{" "} Join Us In Instagram</Link> */}
                 </div>
               </Col>
@@ -75,19 +76,19 @@ class Footer extends Component {
                 <Row>
                   {/* Render Footer Link */}
                   {this.state.links.map((item, key) => (
-                    <Col md={4} key={key}>  
-                    <h4 className="text-white f-22 font-weight-normal mb-3">
-                          {item.title}
-                        </h4>
-                        <ul className="list-unstyled footer-sub-menu">
-                          {item.child.map((linkItem, key) => (
-                            <li key={key}>
-                              <Link className="footer-link" to={linkItem.link}>
-                                {linkItem.title}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
+                    <Col md={4} key={key}>
+                      <h4 className="text-white f-22 font-weight-normal mb-3">
+                        {item.title}
+                      </h4>
+                      <ul className="list-unstyled footer-sub-menu">
+                        {item.child.map((linkItem, key) => (
+                          <li key={key}>
+                            <Link className="footer-link" to={linkItem.link}>
+                              {linkItem.title}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
                     </Col>
                   ))}
                 </Row>
